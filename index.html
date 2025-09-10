@@ -1,0 +1,40 @@
+# Smart-Cultural-Story-Teller-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cultural Storytelling with AI Avatar</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Cultural Storytelling Hub</h1>
+  </header>
+
+  <main>
+    <section id="story">
+      <h2>Interactive Storytelling</h2>
+      <p id="story-text">Welcome! Click below to start your story adventure.</p>
+      <button id="start-story">Start Story</button>
+    </section>
+
+    <section id="video-call">
+      <h2>Video Call with AI Avatar</h2>
+      <div id="avatar-container">
+        <canvas id="avatar"></canvas>
+      </div>
+      <button id="join-call">Join Call</button>
+      <video id="localVideo" autoplay muted></video>
+      <video id="remoteVideo" autoplay></video>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Cultural Storytelling</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/three@0.154.0/build/three.min.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>
